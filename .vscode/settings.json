@@ -1,0 +1,199 @@
+{
+    /* Editor/Workbench */
+    "editor.rulers": [
+        120
+    ],
+    "telemetry.telemetryLevel": "off",
+    "update.enableWindowsBackgroundUpdates": false,
+    "update.mode": "manual",
+    "window.zoomLevel": 1,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": true,
+    "editor.accessibilitySupport": "off",
+    "editor.inlineSuggest.enabled": true,
+    "editor.dragAndDrop": false,
+    "workbench.colorTheme": "Default Dark Modern",
+    "editor.renderWhitespace": "all",
+    "editor.minimap.enabled": false,
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.orientation": "vertical", // necessary to hide activity bar
+    "workbench.activityBar.location": "hidden",
+    "security.workspace.trust.untrustedFiles": "open",
+    "task.quickOpen.detail": false,
+    "explorer.expandSingleFolderWorkspaces": false,
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "workbench.accounts.experimental.showEntitlements": false,
+    // "workbench.enableExperiments": false,
+    // "workbench.settings.enableNaturalLanguageSearch": false,
+    // "workbench.editor.showIcons": false,
+    "extensions.ignoreRecommendations": false,
+    /* Git */
+    "git.autorefresh": false,
+    "git.decorations.enabled": false,
+    "git.enabled": false,
+    "git.openRepositoryInParentFolders": "never",
+    /* Github */
+    "github.gitAuthentication": false,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    /* Languages */
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[json]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "gitlens.codeLens.scopes": [
+            "document"
+        ],
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "[go]": {
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "golang.go"
+    },
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma"
+    },
+    "javascript.format.semicolons": "remove",
+    "javascript.suggest.completeFunctionCalls": true,
+    "typescript.suggest.completeFunctionCalls": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": false
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "solidity.telemetry": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "prettier.tabWidth": 4,
+    "[javascript]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "[solidity]": {
+        "editor.defaultFormatter": "NomicFoundation.hardhat-solidity"
+    },
+    "typescript.surveys.enabled": false,
+    "typescript.disableAutomaticTypeAcquisition": true,
+    "typescript.tsserver.maxTsServerMemory": 8192,
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.format.semicolons": "remove",
+    /*
+        Vim
+    */
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "p"
+            ],
+            "commands": [
+                "editor.action.clipboardPasteAction"
+            ]
+        }
+    ],
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<C-s>"
+            ],
+            "commands": [
+                {
+                    "command": "workbench.action.files.save"
+                },
+                {
+                    "command": "extension.vim_escape"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<C-s>"
+            ],
+            "commands": [
+                {
+                    "command": "workbench.action."
+                },
+                {
+                    "command": "extension.vim_escape"
+                }
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "after": [
+                "d",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "<C-n>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        },
+        {
+            "before": [
+                "u"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "undo",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "<C-r>"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "redo",
+                    "args": []
+                }
+            ]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "macros": {
+        "saveAndExitVimInsertMode": [
+            "workbench.action.files.save",
+            "extension.vim_escape"
+        ]
+    },
+}
